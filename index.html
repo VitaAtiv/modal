@@ -1,12 +1,37 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="./css/resept.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <button class="btn-open" type="button" data-modal-open>Open Modal</button>
+    <div class="back-modal" data-modal>
+      <div class="modal">
+        <button class="btn-close" type="button" data-modal-close>X</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-tumb">
+        <img class="card-image" src="./img/moon-red.jpg" alt="card-moon" />
+        <div class="card-overflow">
+          <p class="card-overflow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit.</p>
+        </div>
+      </div>
+
+      <h3 class="card-title">Moon</h3>
+      <p class="card-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+      <button class="card-btn">See details</button>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
 </html>
