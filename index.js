@@ -14,3 +14,11 @@
       refs.body.classList.toggle("lock")
     }
   })();
+
+// const textEl = document.querySelector (".text")
+// console.log(textEl);
+// window.addEventListener("keydown", (event) => {
+//   console.log(event);
+//   textEl.textContent += event.key;
+//   console.dir(textEl);
+// })
